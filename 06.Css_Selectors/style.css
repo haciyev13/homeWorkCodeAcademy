@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+h1{
+    text-align: center;
+    opacity: 0.8;
+}
+img{
+    width: 400px;
+    height: 400px;
+  
+}
+.img{
+      margin-left: 100px;
+}
+
+.s-2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 117, 117);
+}
+form h3{
+    text-align: center;
+}
+input{
+    padding: 4px 0;
+}
+input:focus{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.firs{
+    color: violet;
+}
+.last{
+    color: darkturquoise;
+}
+.email{
+    color: mediumblue;
+}
+.password{
+    color: brown;
+}
+input:focus::placeholder{
+    color: yellow;
+}
+input[type=radio]{
+    accent-color: cyan;
+}
+.s-2 button{
+    padding: 5px 10px;
+    background-color: rgb(8, 93, 8);
+    color: #fff;
+}
+.s-2 button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.4s;
+}
+.s-2 button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* sec2 */
+.img-2{
+    margin-right: 50px;
+}
+#sec-2{
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec-2 h1{
+    margin-bottom: 60px;
+}
+#sec-2 h3{
+    text-align: start;
+}
+textarea{
+    resize: none;
+}
+#sec-2 .choose{
+    color: blue;
+}
+#sec-2 .age{
+    color: green;
+}
+#sec-2 button{
+    padding: 5px 10px;
+    background-color: darkgrey;
+    color: #fff;
+    border: 1px solid #000;
+}
+#sec-2 button:hover{
+    background-color: black;
+    color: #fff;
+    transition: all 0.4s;
+}
+/* Sec-3 */
+#sec-3{
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-left: 30px;
+}
+
+.content h1{
+    text-align: center;
+}
+.cities{
+    padding-left: 30px;
+    color: brown;
+
+}
+
+.list ul{
+    color: aquamarine;
+}
+.lorem{
+    color: blue;
+}
