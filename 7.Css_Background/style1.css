@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s-1 {
+    background-image: url(./images/Sunrise_at_Lake_Bled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 10px solid #12bc66;
+}
+
+.s-1 .first {
+    margin: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 0 25px;
+}
+
+.s-1 .first:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.6s;
+}
+
+.css-background {
+    width: 80%;
+    margin: 20vh auto;
+    color: #fff;
+}
+
+.css-background .second {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.css-background .second:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.6s;
+    border-radius: 25px 0px;
+}
+
+.css-background p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* section-2 (s-2) */
+.s-2 {
+    background-image: url(./images/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 10px solid yellow;
+
+}
+/* section-2 (s-3)*/
+.s-3 {
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+
+/* section-4 (s-4) */
+.s-4 {
+    background-image: url(./images/indir\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+}
+
+.s-3 .s-4-div {
+    background-image: url(./images/indir\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.s-4 .s-4-divs {
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
